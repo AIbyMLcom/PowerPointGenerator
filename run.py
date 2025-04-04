@@ -41,7 +41,12 @@ def main():
         'flask_limiter',
         'openai',
         'regex',
-        'collection'
+        'collection',
+        'pandas',
+        'base64',
+        'PILLOW',
+        'uuid',
+        'requests'
     ]
 
     # Check if all dependencies are already installed
