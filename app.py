@@ -9,8 +9,7 @@ from pptx.util import Inches
 import random 
 import re
 
-client = openai.OpenAI(api_key='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')
-
+client = openai.OpenAI(api_key='')
 app = Flask(__name__)
 
 limiter = Limiter(
